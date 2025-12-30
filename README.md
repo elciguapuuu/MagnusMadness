@@ -1,6 +1,6 @@
 <div align="center">
 
-  # magnusMagnus - MinMax
+  # MagnusMadness - MinMax
 
   A custom MinMax chess engine with the `lichess-bot` framework.
 
