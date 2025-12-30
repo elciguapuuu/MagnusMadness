@@ -1,6 +1,6 @@
 <div align="center">
 
-  # chessClanker - MinMax
+  # magnusMagnus - MinMax
 
   A custom MinMax chess engine with the `lichess-bot` framework.
 
@@ -16,7 +16,7 @@
   2.  **Configuration**:
       *   Copy the file `config.yml.default` and rename it to `config.yml`.
       *   Open `config.yml` and replace the `token` value with your Lichess API token.
-      *   *Note: The engine settings are already pre-configured to use the custom `chessClanker` engine.*
+      *   *Note: The engine settings are already pre-configured to use the custom engine.*
 
   3.  **Run the Bot**:
       ```bash
