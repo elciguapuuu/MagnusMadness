@@ -1,11 +1,14 @@
 *.yml
+!config.yml.default
 **/__pycache__
 /engines/*
 !/engines/README.md
+!/engines/MinMax/
 lichess_bot_auto_logs/*
 .vscode/*
 .vs/*
 *.pgn
 *.log
 *.txt
+!requirements.txt
 TEMP/*

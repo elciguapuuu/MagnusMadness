@@ -1,5 +1,31 @@
 <div align="center">
 
+  # chessClanker - MinMax
+
+  A custom MinMax chess engine with the `lichess-bot` framework.
+
+  ## Setup Instructions
+
+  To run this bot, you need to configure it with your Lichess API token.
+
+  1.  **Install Dependencies**:
+      ```bash
+      pip install -r requirements.txt
+      ```
+
+  2.  **Configuration**:
+      *   Copy the file `config.yml.default` and rename it to `config.yml`.
+      *   Open `config.yml` and replace the `token` value with your Lichess API token.
+      *   *Note: The engine settings are already pre-configured to use the custom `chessClanker` engine.*
+
+  3.  **Run the Bot**:
+      ```bash
+      python lichess-bot.py
+      ```
+
+  
+  
+  
   ![lichess-bot](https://github.com/lichess-bot-devs/lichess-bot-images/blob/main/lichess-bot-icon-400.png)
 
   <h1>lichess-bot</h1>

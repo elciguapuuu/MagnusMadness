@@ -2,9 +2,9 @@ token: "xxxxxxxxxxxxxxxxxxxxxx"    # Lichess OAuth2 Token.
 url: "https://lichess.org/"        # Lichess base URL.
 
 engine:                            # Engine settings.
-  dir: "./engines/"                # Directory containing the engine. This can be an absolute path or one relative to lichess-bot/.
-  name: "engine_name"              # Binary name of the engine to use.
-# interpreter: "java"
+  dir: "./engines/MinMax/"         # Directory containing the engine. This can be an absolute path or one relative to lichess-bot/.
+  name: "play_uci.py"              # Binary name of the engine to use.
+  interpreter: "python"
 # interpreter_options:
 #   - "-jar"
   working_dir: ""                  # Directory where the chess engine will read and write files. If blank or missing, the current directory is used.
